@@ -1,0 +1,14 @@
+$(function(){
+	$('#infor').mouseover(function(){
+		$('#dd1').css({'backgroundColor':'red',color:"#fff"});
+	});
+	$('#infor').mouseout(function(){
+		$('#dd1').css({'backgroundColor':"#fff",color:"#000"});
+	});
+	$('#infor2').mouseover(function(){
+		$('#dd2').css({'backgroundColor':'red',color:"#fff"});
+	});
+	$('#infor2').mouseout(function(){
+		$('#dd2').css({'backgroundColor':"#fff",color:"#000"});
+	});
+});

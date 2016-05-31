@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>米课</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/mike.css">
+</head>
+<body>
+<div class="container-fluid">
+	<header class="header">
+		<nav class="nav navbar nav-default navbar-fixed-top bg">
+		 <div class="container">
+			<div class="row">
+			  <!-- 导航区logo -->
+				<div class="colo-lg-3 col-md-3 hidden-sm hidden-xs ">
+					<div class="navbar-left">
+						<a href="#" ><img class="nav-a1" src="images/Brand.png"></a>
+					</div>
+				</div>
+				<div class="col-sm-2 hidden-xs visible-sm-block">
+					<div class="navbar-left">
+						<a href="#"><img class="nav-a2" src="images/Brand-M.png"></a>
+					</div>
+				</div>
+				<div class="col-xs-2 visible-xs-block">
+					<div class="navbar-left">
+						<a href="#"><img class="nav-a3" src="images/Brand-S.png"></a>
+					</div>
+				</div>
+              <!-- 导航区logo -->
+              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-8">
+              	<form class="" method="get" action="" role="search">
+              		<div class="input-group input-group-nav nav-div1 ">
+              			<input type="text" class="form-control nav-span" placeholder="查找课程">
+              			<span class="input-group-btn nav-span">
+              				<a href="#" role="button" class="btn" onclick="$(this).closest('form').submit()">
+              					<span class="glyphicon glyphicon-search"
+                                ></span>
+              				</a>
+              			</span>
+              		</div>
+              	</form>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-5 hidden-xs">
+              	<div class="navbar-collapse collapse">
+              		<ul class="list-inline pull-right nav-ul">
+              			<li class="active nav-li">
+              			<a href="#"  style="text-decoration: none;" class="nav-a1">首页</a></li>
+              			<li class="nav-li"><a class="nav-a1" href="#" style="text-decoration: none;">课程</a></li>
+              			<li class="nav-li"><a class="nav-a1" href="#" style="text-decoration: none;">公告</a></li>
+              			<li class="nav-li"><a class="nav-a1" href="#" style="text-decoration: none;">登录</a></li>
+              		</ul>
+              	</div>
+              </div>
+              <div class="col-xs-2 visible-xs-block">
+              	<div class="nav nav-hamburger pull-right open">
+              		<a href="#" class="dropdown-toggle nav-hu" data-toggle="dropdown" role="button">
+              			<span class="glyphicon glyphicon-menu-hamburger"></span>
+              		</a>
+              		<ul class="dropdown-menu pull-right">
+              			<li><a href="#">首页</a></li>
+              			<li><a href="#">课程</a></li>
+              			<li><a href="#">公告</a></li>
+              			<li><a href="#">登录</a></li>
+              		</ul>
+              	</div>
+              </div>
+			</div>
+			</div>
+		</nav>
+	</header>
+	<div class="content">
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="wrapper1 formposit col-lg-8 col-md-8 col-sm-6 col-xs-0">
+						<img src="images/MiLogo.png">
+						<br/>
+						<img src="images/miTitle.png">
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 formposit">
+						<ul class="nav nav-tabs">
+							<li class="active" role="presentation">
+								<a href="#form1" role="tab" data-toggle="tab">登录米课</a>
+							</li>
+							<li><a href="#form2" role="tab" data-toggle="tab" class="check1">注册-加入米课</a></li>
+						</ul>
+						<div class="tab-content">
+							<form role="tabpanel" class="tab-pane fade in active" id="form1">
+							<br/>
+								<label class="sr-only">邮箱</label>
+								<input class="form-control" placeholder="邮箱"><br/>
+								<label class="sr-only">密码</label>
+								<input class="form-control" placeholder="密码">
+								<div class="checkbox">
+									<label class="check1">
+										<input type="checkbox">记住我
+									</label>
+									<a href="#" class="pull-right check1">忘记密码</a>
+								</div>
+								<button class="btn btn-lg btn-primary btn-block">登录</button>
+							</form>
+							<form  id="form2" role="tabpanel" class="tab-pane fade">
+								<br/>
+								<label class="sr-only">邮箱</label>
+								<input class="form-control" placeholder="邮箱"><br/>
+								<label class="sr-only">密码</label>
+								<input class="form-control" placeholder="密码"><br/>
+								<button class="btn btn-lg btn-primary btn-block">注册</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 ">
+					<div class="crow">
+						<h4 class="content-h4">&nbsp;&nbsp;新速快递</h4>
+						<div  id="id1" class="carousel slide" data-ride="carousel">
+							<ol class="carousel-indicators" id="ol">
+							<li data-target="#id1" data-slide-to="0" class="active"></li>
+							<li data-target="#id1" data-slide-to="1"></li>
+							<li data-target="#id1" data-slide-to="2"></li>
+	                       </ol>
+							<div class="carousel-inner" role="listbox">
+								<div class="item active">
+								  <div class="row">
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/film.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">感受文学经典的美丽</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/pollution.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">大气雾霾污染与健康</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="row">
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/biology.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">探索生物医学诺贝尔奖
+
+								  				</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/mineral.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">地标双雄：生物和矿物</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  </div>
+								</div>
+								<div class="item">
+								  <div class="row">
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/uncertainty.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">不确定世界的决策行为</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								  		<div class="thumbnail">
+								  			<a href="#"><img src="images/usa.jpg"></a>
+								  			<div class="carousel-caption">
+								  				<p class="ol-font">二十世纪中美文化交往的问题</p>
+								  			</div>
+								  		</div>
+								  	</div>
+								  </div>
+								</div>
+							</div>
+							<!--  -->
+						</div>
+					</div>
+					<div class="container">
+				    <div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+						<div class="cont-posit">
+						  <div class="cont-pp1">
+						  <h4 class="content-h4 content-h41">最热门课程榜<a href="#" id="a1">更多>></a></h4>
+						  <div class="s">
+							<div class="row row1">
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+									<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+										<div class="row-p1">
+									<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+										<div class="row-p1">
+									<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+									</div>
+								</div>
+								<!--  -->
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+										<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+										<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-6 row1">
+									<div class="row-p1">
+										<div class="tu1">
+										<div class="box-f">
+										<div class="box-s">
+										<div class="box-t img-responsive" style="background-image: url(images/art.png);"></div>
+										</div>
+		                               </div>
+		                             </div>
+		                               <!-- tu1 -->
+		                               <div class="dd">
+										<h4>俄罗斯经典文学</h4>
+										<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   					<a href="#" class="btn btn-info btn-sm tags-a">董晓</a>
+					   					<div class="box-1">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   				     <img  class="img-s" src="images/star.png">
+					   					</div>
+					   					<div class="">
+					   				        2学分 47评价
+					   				         </div>
+									   </div>
+									</div>
+								</div>
+							</div>
+						  </div>	
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="crow">
+					<h4 class="content-h4">&nbsp;&nbsp;热门标签</h4>
+					   <div class="tag-div">
+					   	<div class="tags">
+					   		<h5>学分</h5>
+					   		<a href="#" class="btn btn-info btn-sm">学分2</a>
+					   		<a href="#" class="btn btn-info btn-sm">学分3</a>
+					   		<a href="#" class="btn btn-info btn-sm">学分5</a>
+					   	</div>
+					   		<div class="tags">
+					   		<h5>类型</h5>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">研讨课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">通识课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">公选课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">阅读计划</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">文化素质课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">通识课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">公选课</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">阅读计划</a>
+					   	</div>
+					   		<div class="tags">
+					   		<h5>院系</h5>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">信息</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">交通</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">法律</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">文学院</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">生命科学园</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">交流</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">哲学</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">外国语</a>
+					   	</div>
+					   		<div class="tags">
+					   		<h5>分类</h5>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">学分2</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">学分3</a>
+					   		<a href="#" class="btn btn-info btn-sm tags-a">学分5</a>
+					   	</div>
+					   </div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<ul class="list-inline">
+						<li class="active"><a href="#"><img  class="foot-img" src="images/MiLogo.png"></a></li>
+						<li><div class="foot-div">
+							<h5>关于米课</h5>
+							<p>原由米课团队开发运营，后交由小百合工作室进行全新改版与功能丰富，致力于搭建帮助南大各院系同学选好课程，分享感受，互动交友的校内平台。感谢同学们的大力支持。</p>
+						</div></li>
+					</ul>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<ul class="list-inline">
+						<li class="active"><a href="#"><img  class="foot-img" src="images/LilyStudio.png"></a></li>
+						<li><div class="foot-div">
+							<h5>关于小百合工作室</h5>
+							<p>工作室成立于2000年，是由南京大学网络爱好者自发组织的一个学生团体，致力于传播校园网络文化，促进校园网络建设，服务广大同学，并为爱好网络和计算机科学与技术的同学提供一个交流学习、共同提高的平台。</p>
+						</div></li>
+					</ul>
+				</div>
+			</div>
+			<div class="">
+				<ul class="list-inline foot-ul">
+					<li><a href="#">南大首页</a></li>
+					<li><a href="#">南大教务</a></li>
+					<li><a href="#">意见反馈</a></li>
+					<li><a href="#">米课分一分</a></li>
+				</ul>
+				<p class="foot-p"><a href="#">
+					Designed & developed by CPC, Hane, ZingSS, SuperLatte, Christine & Polaris.<br/>
+				</a></p>
+				<p class="foot-p1"><a href="#">Copyright © Lily Studio, 2015-2016</a> </p>
+			</div>
+		</div>
+	</footer>
+</div>
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/mike.js"></script>
+</body>
+</html>
